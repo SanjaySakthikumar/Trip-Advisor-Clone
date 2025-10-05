@@ -1,0 +1,1122 @@
+
+
+*{
+    margin-left: 5px;
+}
+
+
+.navigationbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    background-color: white;
+    border-bottom: solid black 1px;
+
+}
+
+.navbar_logo img{
+    width: 200px;
+}
+
+
+.navbar_para button{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+}
+.navbar_para button:hover{
+    background-color: rgb(230, 226, 226);
+    border-radius: 75px;
+}
+
+
+.navbar_sign{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar_sign button{
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+}
+.navbar_sign button:hover{
+    background-color: rgb(230, 226, 226);
+    border-radius: 50px;
+}
+
+
+.navbar_sign p{
+    background-color: black;
+    color: white;
+    border-radius: 75px;
+    padding: 10px;
+}
+.navbar_sign p:hover{
+    color: rgb(230, 226, 226);
+}
+
+
+.C-deal{
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.C-deal_button{
+    display: flex;
+    gap: 20px;
+}
+
+.C-deal_Search{
+    width: 700px;
+    background-color: rgb(230, 226, 226);
+    padding: 5px;
+    border-radius: 75px;
+    height: 40px;
+}
+.C-deal_Search input{
+    width: 84%;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+}
+.C-deal_Search input:hover{
+    border: none;
+}
+.C-deal_Search button{
+    background-color:rgb(7, 228, 7);
+    border-radius: 75px;
+    height: 100%;
+    width: 68px;
+    border: none;
+}
+.C-deal_Search button:hover{
+    background-color: rgb(6, 199, 6);
+}
+.C-deal_button{
+    gap: 40px;
+}
+.C-deal p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.C-deal_Heading{
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+
+.sales{
+    height: 500px;
+    margin: 50px;
+    justify-items: center;
+    margin-bottom: 0px;
+}
+.sales img{
+    width: 1100px;
+    height: 500px;
+    position: static;
+    left: 250px;
+    border-radius: 30px;
+}
+.salesdes{
+    position: relative;   
+    bottom: 200px;
+    right: 90px;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+ 
+}
+.sales button{
+    border-radius: 75px;
+    padding: 10px;
+}
+.salesdes p{
+    margin-top: 0px;    
+}
+.salesdes h2{
+    margin-bottom: 0px;
+}
+
+.nxtmeal{
+    margin-top: 50px;
+}
+.cards img{
+    height: 300px;
+    width: 300px;
+}
+.cards{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.cards h2{
+    color: white;
+}
+.card1 h2{
+    position: relative;
+    bottom: 70px;
+    left: 10px;
+}
+.card2 h2{
+    position: relative;
+    bottom: 70px;
+    left: 10px;
+}
+.card3 h2{
+    position: relative;
+    bottom: 70px;
+    left: 10px;
+}
+.card4 h2{
+    position: relative;
+    bottom: 70px;
+    left: 10px;
+}
+
+
+.dis-container{
+    background-color: rgb(208, 207, 207);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 85px;
+    width: 95%;
+    margin-left: 30px;
+}
+.dis-container img{
+    border-radius: 85px;
+}
+.dis-container button{
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    margin-top: 120px;
+}
+.dis-container button:hover{
+    background-color: gray;
+    border-radius: 80px;
+    color: white;
+}
+
+
+
+
+
+.MustDuo{
+    margin-top: 50px;
+}
+.place img{
+    height: 300px;
+    width: 300px;
+}
+.place{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+    margin: none;
+}
+
+.place1{
+    border: black 3px solid;
+    padding: 5px;
+    
+}
+.place2{
+    border: black 3px solid;
+    padding: 5px;
+}
+.place3{
+    border: black 3px solid;
+    padding: 5px;
+}
+.place4{
+    border: black 3px solid;
+    padding: 5px;
+}
+
+.place1{
+  transition: transform .2s;
+}
+.place1:hover {
+  transform: scale(1.1);
+}
+.place2{
+  transition: transform .2s;
+}
+.place2:hover {
+  transform: scale(1.1);
+}
+.place3{
+  transition: transform .2s;
+}
+.place3:hover {
+  transform: scale(1.1);
+}
+.place4{
+  transition: transform .2s;
+}
+.place4:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+.nxttrip{
+    margin-top: 50px;
+}
+.place img{
+    height: 300px;
+    width: 300px;
+}
+.trips{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+    margin: none;
+}
+
+.trip1{
+    border: black 3px solid;
+    padding: 5px;
+    
+}
+.trip2{
+    border: black 3px solid;
+    padding: 5px;
+}
+.trip3{
+    border: black 3px solid;
+    padding: 5px;
+}
+.trip4{
+    border: black 3px solid;
+    padding: 5px;
+}
+
+.trip1{
+  transition: transform .2s;
+}
+.trip1:hover {
+  transform: scale(1.1);
+}
+.trip2{
+  transition: transform .2s;
+}
+.trip2:hover {
+  transform: scale(1.1);
+}
+.trip3{
+  transition: transform .2s;
+}
+.trip3:hover {
+  transform: scale(1.1);
+}
+.trip4{
+  transition: transform .2s;
+}
+.trip4:hover {
+  transform: scale(1.1);
+}
+.trip2 img{
+    width: 350px;
+}
+.trip4 img{
+    width: 350px;
+}
+
+
+.imagefill{
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(208, 207, 207);
+    border: 5px solid black;
+    border-radius: 75px;
+}
+.imagefillimg img{
+    border-radius: 75px;
+}
+.imagefilldes{
+    align-content: center;
+    background-color: red;
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 75px;
+}
+.imagefilldes button{
+    background-color: black;
+    color: white;
+    padding: 5px; 
+    
+}
+.imagefilldes button:hover{
+    background-color: white;
+    color: black;
+}
+.imagefilldes{
+  box-shadow: 5px 10px rgb(208, 207, 207);
+}
+.awimage{
+    margin-top: 50px;
+    position: absolute;
+}
+.awdes{
+    position: relative;
+    top: 250px;
+    left: 50px;
+    color: white;
+    font-size: larger;
+}
+.awdes button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.awdes button:hover{
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    background-color: rgb(208, 207, 207);
+    display: flex;
+    margin-top: 500px;
+    padding: 10px;
+    justify-content: space-around;
+}
+.footerhead{
+    display: flex;
+    background-color: rgb(208, 207, 207);
+}
+.footer1{
+    margin-right: 30px;
+}
+.footer2{
+    margin-right: 30px;
+}
+.footer3{
+    margin-right: 30px;
+}
+.footer4{
+    margin-right: 30px;
+}
+.socialmedia{
+    display: flex;
+}
+.footerbutton{
+    display: flex;
+}
+.foot{
+    display: flex;
+    background-color: rgb(208, 207, 207);
+    padding: 10px;
+}
+.socialmedia{
+    padding: 10px;
+}
+.footfoot{
+    align-content: end;
+    margin-left: 400px;
+}
+.footbutton select{
+    padding: 5px;
+    border-radius: 75px;
+}
+.ask button{
+    position: fixed;
+    left: 1300px;
+    top: 610px;
+    z-index: 1;
+    margin: 50px;
+    background-color: green;
+    padding: 15px;
+    border-radius: 75px;
+}
+.imagefilldes{
+    background-color: black;
+    color: white;
+}
+.imagefilldes button{
+    background-color:rgb(208, 207, 207);
+    color: white;
+}
+
+
+.heart1{
+    position: relative;
+    left: 250px;
+    top: 17px;
+    background-color: rgb(208, 207, 207);
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.heart1:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.heart2{
+    position: relative;
+    left: 250px;
+    background-color: rgb(208, 207, 207);
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.heart2:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.heart3{
+    position: relative;
+    left: 250px;
+    top: 19px;
+    background-color: rgb(208, 207, 207);
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.heart3:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.heart4{
+    position: relative;
+    left: 250px;
+    background-color: rgb(208, 207, 207);
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.heart4:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+
+
+.heart5{
+    position: relative;
+    left: 170px;
+    top: 10px;
+    background-color: rgb(208, 207, 207);
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.heart5:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.heart6{
+    position: relative;
+    left: 300px;
+    top: 15px;
+    background-color: rgb(208, 207, 207);
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.heart6:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.heart7{
+    position: relative;
+    left: 250px;
+    top: 19px;
+    background-color: rgb(208, 207, 207);
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.heart7:hover{
+    transform: scale(1.1);
+    color: red;
+}
+.heart8{
+    position: relative;
+    left: 300px;
+    top: 25px;
+    background-color: rgb(208, 207, 207);
+    width: 30px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.heart8:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+.navigationbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+
+.mob{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    display: none;
+    border-bottom: solid black 1px;
+}
+
+
+
+
+
+.M-deal_button{
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.M-deal_Search{
+    background-color: rgb(208, 207, 207);
+    padding: 10px;
+    display: none;
+}
+.M-deal_Search button{
+    width: 98%;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 80px;
+    background-color: green;
+    color: white;
+}
+.M-deal_Search input{
+    width: 92%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+}
+.M-deal_Search input:hover{
+    border: none;
+}
+.search1{
+    border-bottom: 1px solid black;
+}
+.M-deal_button{
+    display: none;
+}
+.m-sales{
+    display: none;
+}
+.m-sales img{
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+.m-salesdes{
+    position: relative;
+    bottom: 180px;
+    padding-left: 10px;
+    color: white;
+}
+.m-salesdes button{
+    border-radius: 75px;
+    padding: 10px;
+}
+.m-cards{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+    row-gap: 10px;
+    display: none;
+}
+
+.m-card1 img{
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+    position: relative;
+    
+}
+.m-card2 img{
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+.m-card3 img{
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+.m-card4 img{
+    width: 50%;
+    height: 100%;
+    margin: 10px;
+}
+
+
+.m-card1{
+    display: flex;
+}
+.m-card2{
+    display: flex;
+}
+.m-card3{
+    display: flex;
+}
+.m-card4{
+    display: flex;
+}
+
+.m-card1 h2{
+    position: relative;
+    right: 200px;
+    color: white;
+}
+
+
+.m-card2 h2{
+    position: relative;
+    right: 200px;
+    color: white;
+}
+
+.m-card3 h2{
+    position: relative;
+    right: 200px;
+    color: white;
+}
+
+.m-card4 h2{
+    position: relative;
+    right: 200px;
+    color: white;
+}
+
+.m-dis-container{
+        display: none;
+        background-color: rgb(208, 207, 207) ;
+        padding: 10px;
+        border-radius: 40px;
+        margin-top: 275px;
+    }
+.m-dis-container img{
+    width: 97%;
+    border-radius: 45px;
+    
+}
+.m-dis-container button{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    border-radius: 75px;
+}
+.m-dis-container button:hover{
+    background-color: grey;
+    color: white;
+}
+
+.m-duo{
+    display: none;
+    margin-bottom: 30px;
+}
+.m-duo-head{
+    margin-bottom: 30px;
+}
+
+
+.m-place{
+    margin: 20px;
+}
+
+.m-place1{
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.m-place1:hover{
+    scale: 1.1;
+}
+.m-place1 img{
+    width: 98%;
+}
+.m-heart1{
+    position: relative;
+}
+.m-heart1:hover{
+    color: red ;
+}
+
+
+.m-place2{
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.m-place2:hover{
+    scale: 1.1;
+}
+.m-place2 img{
+    width: 98%;
+}
+.m-heart2{
+    position: relative;
+}
+.m-heart2:hover{
+    color: red ;
+}
+
+
+
+
+.m-place3{
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.m-place3:hover{
+    scale: 1.1;
+}
+.m-place3 img{
+    width: 98%;
+}
+.m-heart3{
+    position: relative;
+}
+.m-heart3:hover{
+    color: red ;
+}
+
+
+
+
+.m-place4{
+    border: 3px solid black;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.m-place4:hover{
+    scale: 1.1;
+}
+.m-place4 img{
+    width: 98%;
+}
+.m-heart4{
+    position: relative;
+}
+.m-heart4:hover{
+    color: red ;
+}
+
+
+.m-nxttrip{
+    display: none;
+}
+
+
+.m-trip1{
+    border: 3px black solid;
+    margin: 30px;
+}
+.m-trip2{
+    border: 3px black solid;
+    margin: 30px;
+}
+.m-trip3{
+    border: 3px black solid;
+    margin: 30px;
+}
+.m-trip4{
+    border: 3px black solid;
+    margin: 30px;
+}
+.m-trip2 img{
+    width: 385px;
+}
+.m-trip3 img{
+    width: 385px;
+}
+.m-trip4 img{
+    width: 385px;
+}
+.m-heart7{
+    position: relative;
+}
+.m-heart5:hover{
+    color: red;
+}
+.m-heart6:hover{
+    color: red;
+}
+.m-heart7:hover{
+    color: red;
+}
+.m-heart8:hover{
+    color: red;
+}
+.m-trip1:hover{
+    scale: 1.1;
+}
+.m-trip2:hover{
+    scale: 1.1;
+}
+
+.m-trip3:hover{
+    scale: 1.1;
+}
+
+.m-trip4:hover{
+    scale: 1.1;
+}
+
+
+.m-fill{
+    display: none;
+}
+
+.m-fill img{
+    width: 450px;
+    z-index: 1;
+}
+.m-imagefilldes{
+    position: relative;
+    bottom: 170px;
+    padding: 10px;
+    font-weight: 600;
+}
+.m-imagefilldes button{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+}
+.m-imagefilldes button:hover{
+    background-color: white;
+    color: gray;
+}
+.m-award img{
+    width: 450px;
+}
+.m-award{
+    display: none;
+}
+.m-awdes{
+    position: relative;
+    bottom: 230px;
+    padding: 10px;
+    color: white;
+
+}
+.m-awdes button{
+    padding: 10px;
+}
+
+
+.m-footfoot{
+    display: none;
+}
+.mobfoot{
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    display: none;
+}
+.m-footfoot{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+@media  screen and (max-width : 800px) {
+    .navigationbar{
+        display: none;
+    }
+    .mob{
+        display: flex;
+    }
+    .C-deal_Heading{
+        display: none;
+    }
+    .C-deal_button{
+        display: none;
+    }
+    .M-deal_button{
+        display: flex;
+    }
+    .C-deal_Search{
+        display: none;
+    }
+    .M-deal_Search{
+        display: block;
+    }
+    .sales{
+        display: none;
+    }
+    .m-sales{
+        display: block;
+    }
+    .cards{
+        display: none;
+    }
+    .m-cards{
+        display: block;
+    }
+    .dis-container{
+        display: none;
+    }
+    .m-dis-container{
+        display: block;
+    }
+    .duo{
+        display: none;
+    }
+    .m-duo{
+        display: block;
+    }
+    .nxttrip{
+        display: none;
+    }
+    .m-nxttrip{
+        display: block;
+    }
+    .fill{
+        display: none;
+    }
+    .m-fill{
+        display: block;
+    }
+    .award{
+        display: none;
+    }
+    .m-award{
+        display: block;
+    }
+    .footer{
+        display: none;
+    }
+    .m-footfoot{
+        display: block;
+    }
+    .footfoot{
+        display: none;
+    }
+    .foot{
+        display: none;
+    }
+    .mobfoot{
+        display: block;
+    }
+}
+
+
+.c1:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.c2:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.c3:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.c4:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.c5:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.c6:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+
+
+
+
+.C1:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.C2:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.C3:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.C4:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.C5:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+.C6:hover{
+    border-bottom: 3px solid black;
+    transition: 0.2;
+}
+
+.search1 input:focus{
+    border: none;
+}
+
+.place a{
+    text-decoration: none;
+    color: black;
+}
+.m-place a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.trips a{
+    text-decoration: none;
+    color: black;
+}
+
+.m-trips a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer1 a{
+    margin: 0px;
+}
+.footer2 a{
+    margin: 0px;
+}
+.footer3 a{
+    margin: 0px;
+}
+.footer4 a{
+    margin: 0px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+}
